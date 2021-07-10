@@ -1,7 +1,7 @@
 .banner {
     background-image: url(../../assets/img/banner.png);
     background-repeat: no-repeat;
-    height: 400px;
+    height: 470px;
     background-size: 100%;
     border-bottom: 10px solid #031826;
 }
@@ -10,11 +10,11 @@
     display: flex;
     flex-direction: column;
     width: 650px;
-    margin-left: 115px;
+    margin-left: 370px;
 }
 
 .banner .box {
-    margin-top: 70px;
+    margin-top: 100px;
     margin-bottom: 30px;
 }
 
