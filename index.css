@@ -2,8 +2,8 @@
 body {
     background-color: #fc64c4;
     font-family: "Quicksand", sans-serif;
-    margin: 100px;
-    padding: 120px;
+    margin: 220px;
+    padding: 20px;
 }
 
 /* Estilo para o logo */
@@ -21,7 +21,7 @@ input[type="text"],
 input[type="number"],
 input[type="submit"] {
     background-color: #fcd3ef; /* Cor de fundo do input */
-    color: #000; /* Cor do texto dentro do input */
+    color: #fc84d4; /* Cor do texto dentro do input */
     border: 1px solid #ccc; /* Adiciona uma borda ao input */
     padding: 8px; /* Adiciona espaço interno ao redor do conteúdo do input */
     border-radius: 5px; /* Adiciona cantos arredondados ao input */
@@ -30,7 +30,7 @@ input[type="submit"] {
 
 /* Estilo para os títulos */
 h1, h2 {
-    color: #333;
+    color: #fff;
 }
 
 /* Estilo para o formulário de cadastro de produtos */
@@ -39,6 +39,7 @@ form {
 }
 
 label {
+    color: #fff;
     display: block;
     margin-bottom: 5px;
 }
@@ -53,7 +54,7 @@ button {
 
 button {
     background-color: #fc84d4;
-    color: #000;
+    color: #fff;
     border: none;
     cursor: pointer;
 }
@@ -67,6 +68,14 @@ table {
     width: 100%;
     border-collapse: collapse;
     background-color: #fcd3ef;
+}
+
+th {
+    color: #fff;
+}
+
+td {
+    color: #fc84d4;
 }
 
 th, td {
@@ -85,7 +94,7 @@ th {
     margin-top: 20px; /* Espaçamento superior */
     padding: 10px; /* Espaçamento interno */
     background-color: #fcd3ef; /* Cor de fundo */
-    color: #333; /* Cor do texto */
+    color: #fc84d4 ; /* Cor do texto */
     border: 1px solid #ccc; /* Borda */
     border-radius: 5px; /* Cantos arredondados */
     width: fit-content; /* Ajusta a largura ao conteúdo */
