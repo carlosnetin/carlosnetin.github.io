@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jack Muniz</title>
+    <link rel="stylesheet" href="CSS/preco.css"> <!-- Arquivo CSS para estilização -->
+</head>
+<body>
+
+    <!-- Logo -->
+    <a href="index.html">
+        <img src="IMAGENS/logo.png" alt="Seu Logo" id="logo">
+    </a>
+
+    <h1>Cálculo de Preço dos Produtos</h1>
+    <table id="produtos-table">
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Quantidade de Materiais</th>
+                <th>Custo do Material (por unidade)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="text" name="produto1" placeholder="Nome do Produto"></td>
+                <td><input type="number" name="quantidade1" min="1" placeholder="Quantidade de Materiais"></td>
+                <td><input type="number" name="custo1" min="0.01" step="0.01" placeholder="Custo do Material"></td>
+            </tr>
+            <!-- Você pode adicionar mais linhas conforme necessário -->
+        </tbody>
+    </table>
+    
+    <button type="button" onclick="adicionarLinha()">Adicionar Produto</button>
+    <button type="button" onclick="calcularPrecoProduto()">Calcular Preço dos Produtos</button>
+
+    <div id="preco-final"></div>
+
+    <!-- Script JavaScript para interatividade -->
+    <script src="JS/preco.js"></script> <!-- Arquivo JavaScript para funcionalidades -->
+</body>
+</html>
