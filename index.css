@@ -1,0 +1,92 @@
+/* Estilo para o corpo da página */
+body {
+    background-color: #fc64c4;
+    font-family: "Quicksand", sans-serif;
+    margin: 100px;
+    padding: 120px;
+}
+
+/* Estilo para o logo */
+#logo {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 200px; /* ajuste conforme necessário */
+    height: auto; /* manter proporções */
+    margin-right: 20px; /* Adiciona margem à direita do logo */
+}
+
+/* Estilo para o input */
+input[type="text"],
+input[type="number"],
+input[type="submit"] {
+    background-color: #fcd3ef; /* Cor de fundo do input */
+    color: #000; /* Cor do texto dentro do input */
+    border: 1px solid #ccc; /* Adiciona uma borda ao input */
+    padding: 8px; /* Adiciona espaço interno ao redor do conteúdo do input */
+    border-radius: 5px; /* Adiciona cantos arredondados ao input */
+    /* Adicione outras propriedades de estilo conforme necessário */
+}
+
+/* Estilo para os títulos */
+h1, h2 {
+    color: #333;
+}
+
+/* Estilo para o formulário de cadastro de produtos */
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+button {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+}
+
+button {
+    background-color: #fc84d4;
+    color: #000;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fcd3ef;
+}
+
+/* Estilo para a tabela de produtos */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fcd3ef;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #fc84d4;
+}
+
+/* Estilo para o total de preços */
+#total-preco {
+    font-size: 18px; /* Tamanho da fonte */
+    margin-top: 20px; /* Espaçamento superior */
+    padding: 10px; /* Espaçamento interno */
+    background-color: #fcd3ef; /* Cor de fundo */
+    color: #333; /* Cor do texto */
+    border: 1px solid #ccc; /* Borda */
+    border-radius: 5px; /* Cantos arredondados */
+    width: fit-content; /* Ajusta a largura ao conteúdo */
+}
